@@ -93,16 +93,23 @@ p {
 }
 
 @media (min-width:768px) {
-    .general {
+    .cajas-calculos {
         border: solid;
         border-radius: 1rem;
         background-color: #dfd3c3;
+        margin-top: 20px;
     }
 }
 
-.general {
+.cajas-calculos {
     display: block;
     justify-content: space-between;
+}
+
+
+.titulo-calculo {
+    float:left;
+    margin-bottom: 20px;
 }
 
 
