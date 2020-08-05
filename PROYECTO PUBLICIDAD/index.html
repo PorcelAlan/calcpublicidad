@@ -9,9 +9,12 @@
     <script src="main.js"></script>
 </header>
 <body>
-
-<form class="general">
 <h1 class="h1">CALCULADORA DE PUBLICIDAD DIGITAL 2020</h1>
+
+<div class="titulo-calculo"><p>CTR y Clics</p></div>
+
+
+<div><form class="cajas-calculos">
 <div class="calc1">
   <p>Si tengo este CTR</p>
 <input class="number-input" type="number" placeholder="CTR" id="ctr-number" min="1">
@@ -22,7 +25,11 @@
 <p class="resultado">Necesito esta cantidad de impresiones</p>
 <span class="total" id="total1"></span>
 </div>
+</form>  </div>
 
+
+<div class="titulo-calculo"><p>Viewability</p></div>
+<form class="cajas-calculos">
 <div class="calc2">
   <p>Si quiero esta cantidad de impresiones visibles</p>
     <input class="number-input"  type="number" placeholder="IMP VISIBLES" id="imp-number" min="1">
@@ -33,7 +40,10 @@
     <p class="resultado">Necesito entregar esta cantidad de impresiones</p>
     <span class="total" id="total2"></span>
     </div>
+    </form> 
 
+<div class="titulo-calculo"><p>Costo de la acción</p></div>
+<form class="cajas-calculos">
 <div class="calc3">
   <p>Si ofrezco esta cantidad de impresiones</p>
       <input class="number-input" type="number" placeholder="IMPRESIONES" id="impresiones-number" min="1">
@@ -44,7 +54,7 @@
       <p class="resultado">El costo total es</p>
       <span class="total" id="total3"></span>
       </div>
-    </form>  
+    </form> 
 <script>
     function Calc1() {
     var ctr = parseFloat(document.getElementById('ctr-number').value);
